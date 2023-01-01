@@ -1,0 +1,44 @@
+Arguments: 
+  /home/alchemist/.nvm/versions/node/v18.12.1/bin/node /home/alchemist/.nvm/versions/node/v18.12.1/bin/yarn install
+
+PATH: 
+  /home/alchemist/.local/share/solana/install/active_release/bin:/home/alchemist/.local/share/solana/install/active_release/bin:/home/alchemist/.local/share/solana/install/active_release/bin:/home/alchemist/.cargo/bin:/home/alchemist/.nvm/versions/node/v18.12.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Sufij/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sufij/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Sufij/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Sufij/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile '/home/alchemist/.cache/yarn/v6/npm-agentkeepalive-4.2.1-a7975cbb9f83b367f06c90cc51ff28fe7d499717-integrity/node_modules/agentkeepalive/History.md' -> '/mnt/c/Users/Sufij/Projects/crowdfunding/node_modules/agentkeepalive/History.md'
+
+npm manifest: 
+  {
+      "scripts": {
+          "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+          "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+      },
+      "dependencies": {
+          "@coral-xyz/anchor": "^0.26.0"
+      },
+      "devDependencies": {
+          "chai": "^4.3.4",
+          "mocha": "^9.0.3",
+          "ts-mocha": "^10.0.0",
+          "@types/bn.js": "^5.1.0",
+          "@types/chai": "^4.3.0",
+          "@types/mocha": "^9.0.0",
+          "typescript": "^4.3.5",
+          "prettier": "^2.6.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
